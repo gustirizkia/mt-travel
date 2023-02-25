@@ -1,0 +1,160 @@
+.navbar-expand-lg {
+    background: transparent;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar .nav-item {
+    font-weight: 400;
+    font-size: 16px;
+    color: #152c5b;
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+    height: 70px;
+    border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    color: #5b1515;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    color: #152c5b;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #21b971 !important;
+}
+
+.btn-login {
+    background-color: #071c4d;
+    color: #fff;
+}
+
+.btn-login:hover {
+    color: #fff;
+}
+.color__primary {
+    color: #21b971;
+}
+
+header {
+    padding: 50px 0px;
+}
+
+header h1,
+header p {
+    color: #060720;
+}
+
+header h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 22px;
+}
+
+.btn-get-started {
+    background-color: #21b971;
+    color: #fff;
+    font-weight: bold;
+}
+
+header .btn-get-started:hover {
+    color: #fff;
+    background-color: #40f29f;
+}
+.icon {
+    width: 70%;
+}
+
+.col__item {
+    background-color: #21b971;
+    height: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title {
+    /* font-family: "Playfair Display", serif; */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: start;
+}
+
+.icon_item p {
+    margin-bottom: unset;
+    font-weight: 300;
+}
+
+.col__item .time {
+    background-color: #21b971;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0px 15px;
+}
+
+.home-stay img {
+    border-radius: 15px;
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.home-stay .name {
+    font-weight: 400;
+    font-size: 20px;
+    color: #152c5b;
+}
+.home-stay .location {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: unset;
+    color: #b0b0b0;
+}
+
+footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 30px 0px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #b0b0b0;
+}
+
+@media (max-width: 767.98px) {
+    header {
+        padding: 10px 0px;
+        text-align: center;
+    }
+    header .start {
+        justify-content: center;
+    }
+    .icon {
+        width: 100%;
+        font-size: 12px;
+    }
+    .icon img {
+        width: 40px;
+    }
+}
