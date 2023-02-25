@@ -52,7 +52,7 @@
     <link rel="stylesheet" href="{{ asset('assets/style.css') }}" />
   </head>
   <body>
-    <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+    <span itemprop="thumbnail" itemscope itemtype="{{ asset('assets/images/logo_mt2.jpg') }}">
         <link itemprop="url" href="{{ asset('assets/images/logo_mt2.jpg') }}">
     </span>
     @include('includes.navbar')
