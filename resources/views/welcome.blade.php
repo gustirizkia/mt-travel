@@ -19,7 +19,11 @@
     <meta property="og:description" content="Explore The Beautiful World
     As Easy One Click You will see beautiful
     moment you never see before">
-    <meta property="og:image" content="{{ asset('assets/images/logo_mt2.jpg') }}">
+    <meta property="og:image" itemprop="image" content="{{ asset('assets/images/logo_mt2.jpg') }}">
+    <meta property="og:type" content="website" />
+    <meta property="og:updated_time" content="1440432930" />
+    <meta property="og:site_name" content="MTTRAVEL">
+
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -48,6 +52,9 @@
     <link rel="stylesheet" href="{{ asset('assets/style.css') }}" />
   </head>
   <body>
+    <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+        <link itemprop="url" href="{{ asset('assets/images/logo_mt2.jpg') }}">
+    </span>
     @include('includes.navbar')
 
     <header class="">
