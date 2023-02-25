@@ -23,6 +23,10 @@ nav.navbar {
     border-radius: 11px;
 }
 
+.card-details {
+    margin-bottom: 20px;
+}
+
 .card-details img {
     border-radius: 11px;
 }

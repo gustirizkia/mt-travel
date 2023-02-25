@@ -56,6 +56,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4">
+                    <div class="card card-details">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31735.935294952204!2d105.84697646810689!3d-6.131788065851875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4180d0aa3fb905%3A0xa36c9f30e6101d78!2sPantai%20Florida%202%20Anyer!5e0!3m2!1sid!2sid!4v1677352714999!5m2!1sid!2sid" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </div>
 
         </div>
